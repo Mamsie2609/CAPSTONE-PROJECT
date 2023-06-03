@@ -40,4 +40,4 @@ After conducting thorough data wrangling and analysis, the following insights we
 
 These findings provide valuable insights into the characteristics and behaviours of the customer base, which can help inform decision-making and marketing strategies.
 
-To predict the likelihood of customer deposits, I performed training and testing using various models after normalising the dataset. Considering the specific problem faced by the bank, which is to minimise false positives (incorrectly identifying customers), the focus was on selecting a model with a high precision score. Based on this objective, the SGD classifier, with the highest precision score among the models, was considered the most suitable choice.
+To predict the likelihood of customer deposits, I performed training and testing using various models after normalising the dataset. Considering the specific problem faced by the bank, which is to minimise false positives (incorrectly identifying customers), the focus was on selecting a model with a high precision score. Based on this objective, the SVC, with the highest precision score among the models, was considered the most suitable choice.
